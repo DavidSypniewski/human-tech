@@ -10,6 +10,9 @@ let minutes = 5;
 let seconds = 0;
 let milliSec = 0;
 const sec = 1000;
+let waitForUnblockBtn = 0;
+let blokBtn = false;
+
 
 function preload() {
   ekran_1 = loadImage("ekran_1.png");
