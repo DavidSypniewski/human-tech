@@ -29,7 +29,7 @@ function mouseReleased() {
     clickCount++;
     print(clickCount);
     zmienIloscXenobotow(1);
-    blockBtn = false;
+    blockBtn = true;
     currentMillis = millis();
   }
 }
